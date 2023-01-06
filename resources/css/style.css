@@ -2,20 +2,41 @@ html {
     font-size: 16px;
 }
 
+ol,ul {
+	list-style: none;
+	}
+
+
+    /*HEADER*/
+
 .head {
     height: 5.34rem;
     width: 100%;
-    padding: 0 1.5rem;
     display: flex;
     position: fixed;
+    align-items: center;
 }
 
 .head__logo {
     display: flex;
+    width: 50%;
+    font-size: 2rem;
+    padding-left: 1.5rem;
+}
+
+.head__nav {
+    width: 50%;
+    font-size: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.head__logoimg {
+    
 }
 
 .head__navlist {
     display: flex;
     gap: 1rem;
-    position:
+    flex: 1;
+    justify-content: flex-end;
 }
