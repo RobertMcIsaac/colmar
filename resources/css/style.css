@@ -20,18 +20,23 @@ ol,ul {
 .head__logo {
     display: flex;
     width: 50%;
-    font-size: 2rem;
+    font-size: 1.25rem;
     padding-left: 1.5rem;
+}
+
+.head__logoimg {
+    min-height: 2rem;
+    min-width: 2rem;
+}
+
+.head__logoname--emph{
+    font-weight: bolder;
 }
 
 .head__nav {
     width: 50%;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding-right: 1.5rem;
-}
-
-.head__logoimg {
-    
 }
 
 .head__navlist {
@@ -39,4 +44,8 @@ ol,ul {
     gap: 1rem;
     flex: 1;
     justify-content: flex-end;
+}
+
+.head__navlist a {
+    text-decoration: none;
 }
