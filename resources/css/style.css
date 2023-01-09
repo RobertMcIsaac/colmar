@@ -6,6 +6,9 @@ ol,ul {
 	list-style: none;
 	}
 
+h1 {
+    font-size: 2.5rem;
+}
 
 /*HEADER*/
 
@@ -52,10 +55,47 @@ ol,ul {
 }
 
 
-/*START section*/
+/*MAIN*/
 
 #main {
     position: relative;
     top: 4rem;
 }
 
+
+/*START section*/
+
+.landing {
+    display: flex;
+    padding: 2rem 1.5rem;
+    background-color: lightgrey;
+}
+
+.landing__img {
+    padding-right: 0.75rem;
+    max-width: 60%;
+}
+
+.landing__text {
+    padding-left: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 20rem;
+}
+
+.landing__item {
+    margin: 0;
+}
+
+.landing__text h3 {
+    margin: 1.6rem 0;
+}
+
+.landing__item--btn {
+    color: white;
+    background-color: grey;
+    padding: 0.5rem 3rem;
+    max-width: 12rem;
+    text-align: center;
+}
