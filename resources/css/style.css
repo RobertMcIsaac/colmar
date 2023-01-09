@@ -7,7 +7,7 @@ ol,ul {
 	}
 
 
-    /*HEADER*/
+/*HEADER*/
 
 .head {
     height: 5.34rem;
@@ -49,3 +49,7 @@ ol,ul {
 .head__navlist a {
     text-decoration: none;
 }
+
+
+/*START section*/
+
