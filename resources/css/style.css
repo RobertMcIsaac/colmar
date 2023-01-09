@@ -10,6 +10,10 @@ h1 {
     font-size: 2.5rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*HEADER*/
 
 .head {
@@ -52,7 +56,7 @@ h1 {
 }
 
 .head__navlist a {
-    text-decoration: none;
+    color: black;
 }
 
 
@@ -70,12 +74,16 @@ h1 {
     display: flex;
     padding: 2rem 1.5rem;
     background-color: lightgrey;
-    height: 100%;
 }
 
-.landing__img {
+.landing__imagecontainer {
     margin-right: 0.75rem;
-    max-width: 60%;
+    width: 60%;
+}
+
+.landing__imagecontainer img {
+    width: 100%;
+    height: auto;
 }
 
 .landing__text {
@@ -109,9 +117,8 @@ h1 {
 }
 
 .info__left {
-    max-width: 60%;
-    padding: 2rem 0 2rem 1.5rem;
-    
+    width: 60%;
+    padding: 2rem 0 2rem 1.5rem; 
 }
 
 .info__left img {
@@ -134,13 +141,17 @@ h1 {
     padding: 1rem;
 }
 
-.info__card img {
-    max-width: 35%;
-    max-height: auto;
+.info__card .info__imagecontainer{
+    width: 35%;
+}
+
+.info__imagecontainer img {
+    max-width: 100%;
+    height: auto;
 }
 
 .info__cardtext {
-    max-width: 65%;
+    width: 65%;
     display: flex;
     flex-direction: column;
 }
