@@ -19,6 +19,7 @@ h1 {
     position: fixed;
     align-items: center;
     z-index: 100;
+    background-color: white;
 }
 
 .head__logo {
@@ -69,6 +70,7 @@ h1 {
     display: flex;
     padding: 2rem 1.5rem;
     background-color: lightgrey;
+    height: 100%;
 }
 
 .landing__img {
