@@ -10,11 +10,12 @@ ol,ul {
 /*HEADER*/
 
 .head {
-    height: 5.34rem;
+    height: 4rem;
     width: 100%;
     display: flex;
     position: fixed;
     align-items: center;
+    z-index: 100;
 }
 
 .head__logo {
@@ -53,3 +54,7 @@ ol,ul {
 
 /*START section*/
 
+#main {
+    position: relative;
+    top: 4rem;
+}
