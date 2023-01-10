@@ -173,6 +173,7 @@ a {
 
 .courses {
     background-color: lightgrey;
+    padding-bottom: 1rem;
 }
 
 .courses h1 {
@@ -218,4 +219,16 @@ a {
 
 h3.course__text--item {
     color: black
+}
+
+
+/*THESIS*/
+
+.thesis {
+    margin-left: 1.5rem;
+}
+
+.thesis h1 {
+    padding: 2rem 0;
+    text-align: center;
 }
