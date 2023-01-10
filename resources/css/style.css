@@ -171,7 +171,51 @@ a {
 
 /*COURSES*/
 
+.courses {
+    background-color: lightgrey;
+}
+
 .courses h1 {
     text-align: center;
-    background-color: lightgrey;
+    padding: 2rem 0 1rem 0;
+    margin: 0;
+}
+
+.course__cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 2.5rem;
+    justify-content: center;
+}
+
+.course__card {
+    margin: 1rem;
+    background-color: white;
+    width: 25rem;
+    height: 25rem;
+}
+
+.course__img {
+    height: auto;
+}
+
+.course__img img {
+    height: auto;
+    width: 100%;
+}
+
+.course__text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.course__text--item {
+    margin: 0.5rem;
+    color: grey;
+}
+
+h3.course__text--item {
+    color: black
 }
