@@ -225,10 +225,21 @@ h3.course__text--item {
 /*THESIS*/
 
 .thesis {
-    margin-left: 1.5rem;
+    margin: 0 0 2rem 1.5rem;
+    display: flex;
 }
 
-.thesis h1 {
+#thesis-exhibit h1 {
     padding: 2rem 0;
+    margin: 0;
     text-align: center;
 }
+
+.thesis__left {
+    width: 60%;
+}
+
+.thesis__textcontainer {
+    margin-top: 1.5rem;
+}
+
