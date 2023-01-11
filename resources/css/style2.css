@@ -151,8 +151,12 @@ a {
     height: 25rem;
 }
 
-.card__img {
+.card__imgcontainer {
     height: auto;
+    width: 100%;
+}
+
+.card__img {
     width: 100%;
 }
 
@@ -170,4 +174,28 @@ a {
 
 .card__text--title {
     color: black
+}
+
+/*LANDING*/
+
+
+/*INFORMATION*/
+
+
+/*COURSES*/
+
+.content--background {
+    background-color: lightgrey;
+}
+
+/*THESIS*/
+
+.thesis__title {
+    padding: 2rem 0;
+    margin: 0;
+    text-align: center;
+}
+
+.video {
+    max-width: 100%;
 }
