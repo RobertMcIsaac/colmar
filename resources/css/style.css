@@ -198,6 +198,7 @@ a {
 
 .course__img {
     height: auto;
+    
 }
 
 .course__img img {
@@ -238,7 +239,6 @@ h3.course__text--item {
 .thesis__left {
     max-width: 60%;
 }
-
 
 
 .thesis__video {
