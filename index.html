@@ -190,7 +190,7 @@
                 <!--lefthand content-->
                 <div class="thesis__left">
                     <div class="thesis__videocontainer">
-                        <video width="320" height="540" controls>
+                        <video class="thesis__video" controls>
                             <source src="resources/videos/thesis.mp4">
                         </video> 
                     </div>
@@ -202,26 +202,25 @@
                 
                 <!--Righthand content-->
                 <div class="thesis__right">
-
                     <!--Card 1-->
-                    <div class="thesis__card">
+                    <div class="thesis__card thesis__card--fisma">
                          <div class="thesis__imagecontainer">
                             <img src="resources/images/thesis-fisma.jpg" alt="View from above of a somebody at a desk filled with papers and a smart phone">
                         </div>
-                        <div class="thesis__textcontainer">
-                            <h3>Fisma: Design and Prototype</h3>
-                            <p>Designer showcase of new prototype product</p>
+                        <div class="thesis__cardtext">
+                            <h3 class="thesis__cardtext--item">Fisma: Design and Prototype</h3>
+                            <p class="thesis__cardtext--item">Designer showcase of new prototype product</p>
                         </div>
                     </div>
 
                     <!--Card 2-->
-                    <div class="thesis__card">
+                    <div class="thesis__card thesis__card--borderbottom">
                         <div class="thesis__imagecontainer">
                             <img src="resources/images/thesis-now-and-then.jpg" alt="Photo of New York City">
                         </div>
-                        <div class="thesis__textcontainer">
-                            <h3>Now and then</h3>
-                            <p>Research study about New York</p>
+                        <div class="thesis__cardtext">
+                            <h3 class="thesis__cardtext--item">Now and then</h3>
+                            <p class="thesis__cardtext--item">Research study about New York</p>
                         </div>
                     </div>
                     
@@ -231,7 +230,12 @@
         </section>
 
         <!--FOOTER-->
-        <footer>ⓒ 2016 Colmar Academy. All rights reserved</footer>
+        <footer id="footer" class="foot">
+            <span class="foot__copyright">ⓒ 2016 Colmar Academy. All rights reserved</span>
+            <span class="foot__termsprivacy">Terms</span>
+            <span class="foot__termsprivacy">Privacy</span>
+            
+        </footer>
 
     </main>
     

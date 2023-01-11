@@ -134,13 +134,13 @@ a {
 
 .info__right {
     max-width: 40%;
-    margin-left: 0.75rem;
-    border-left: 1px solid lightgrey;
+    margin-left: 0.75rem; 
 }
 
 .info__card {
     display: flex;
     padding: 1rem;
+    border-left: 1px solid lightgrey;
 }
 
 .info__card .info__imagecontainer{
@@ -236,10 +236,78 @@ h3.course__text--item {
 }
 
 .thesis__left {
-    width: 60%;
+    max-width: 60%;
+}
+
+
+
+.thesis__video {
+    max-width: 100%;
 }
 
 .thesis__textcontainer {
     margin-top: 1.5rem;
 }
 
+
+.thesis__right {
+    max-width: 40%;
+}
+/*same as cards in info section- below*/
+.thesis__right {
+    max-width: 40%;
+    margin-left: 0.75rem;
+    
+}
+
+.thesis__card {
+    display: flex;
+    padding: 1rem;
+    border-left: 1px solid lightgrey;
+}
+
+.thesis__card--borderbottom {
+    border-bottom: 1px solid lightgrey;
+}
+
+.thesis__card .thesis__imagecontainer{
+    width: 35%;
+    padding: 1rem;
+}
+
+.thesis__imagecontainer img {
+    max-width: 100%;
+    height: auto;
+}
+
+.thesis__cardtext {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thesis__cardtext--item {
+    margin: 0.25rem 1rem;
+}
+
+.thesis__card--fisma {
+    background-color: lightgrey;
+}
+/*same as cards in info section- above*/
+
+/*FOOTER*/
+
+.foot {
+    display: flex;
+    padding: 1rem 1.5rem 2rem 1.5rem;
+    border-top: 1px solid lightgrey;
+}
+
+.foot__copyright {
+    flex: 1
+}
+
+.foot__termsprivacy {
+    padding-left: 0.8rem;
+}
