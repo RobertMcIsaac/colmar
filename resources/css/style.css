@@ -219,6 +219,10 @@ img {
 
 /*COURSES*/
 
+.courses {
+    padding: 2rem 0;
+}
+
 .content--background {
     background-color: lightgrey;
 }
