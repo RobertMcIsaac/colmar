@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Colmar Academy</title>
     <link rel="stylesheet" href="resources/css/reset.css">
     <link rel="stylesheet" href="resources/css/style.css">
@@ -15,13 +18,13 @@
     <header id="header" class="head">
         <div class="head__logo">
             <img class="head__logoimg" src="resources/images/ic-logo.svg" alt="">
-            <p class="head__logoname"><span class="head__logoname--emph">COLMAR</span>ACADEMY</p>
+            <p><span class="head__logoname--emph">COLMAR</span>ACADEMY</p>
         </div>
         <nav class="head__nav">
             <ul class="head__navlist">
-                <a class="head__navitem" href="#"><li>On campus</li></a>
-                <a class="head__navitem" href="#"><li>Online</li></a>
-                <a class="head__navitem" href="#"><li>For companies</li></a>
+                <a class="head__navitem" href="#on-campus"><li>On campus</li></a>
+                <a class="head__navitem" href="#online"><li>Online</li></a>
+                <a class="head__navitem" href="#for-companies"><li>For companies</li></a>
                 <a class="head__navitem" href="#"><li>Sign in</li></a>   
             </ul>
         </nav>
@@ -31,7 +34,7 @@
     <main id="main">
 
         <!--START/ LANDING PAGE-->
-        <section id="start" class="content flex content--background">
+        <section id="landing-page" class="content flex content--background">
             <div class="content__left">
                 <div>
                     <img src="resources/images/banner.jpg" alt="Three people studying outside on a table">
@@ -45,11 +48,11 @@
         </section>
 
         <!--INFORMATION-->
-        <section id="information" class="content flex">
+        <section id="on-campus" class="content flex">
 
             <!--Lefthand content-->
             <div class="content__left">
-                <img class="img" src="resources/images/information-main.jpg" alt="A man reading a book"> 
+                <img src="resources/images/information-main.jpg" alt="A man reading a book"> 
                 <div>
                     <h1>It doesn't hurt to keep practicing</h1>
                     <p class="info__left__item">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsam urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
@@ -65,7 +68,7 @@
                 <!--Orientation card-->
                 <div class="banner">
                     <div class="banner__imgcontainer">
-                       <img class="banner__img" src="resources/images/information-orientation.jpg" alt="People seen walking from above, casting long shadows"> 
+                       <img src="resources/images/information-orientation.jpg" alt="People seen walking from above, casting long shadows"> 
                     </div>
                     <div class="banner__text">
                        <h3 class="banner__textitem">Orientation date</h3>
@@ -77,7 +80,7 @@
                 <!--Campus card-->
                 <div class="banner">
                     <div class="banner__imgcontainer">
-                      <img class="banner__img" src="resources/images/information-campus.jpg" alt="Peopl sitting in a room with wood wall-panels and a map of South America on the wall">  
+                      <img src="resources/images/information-campus.jpg" alt="Peopl sitting in a room with wood wall-panels and a map of South America on the wall">  
                     </div>
                     <div class="banner__text">
                        <h3 class="banner__textitem">Our campus</h3>
@@ -89,7 +92,7 @@
                 <!--Lecture card-->
                 <div class="banner banner--highlight banner--border--bottom">
                     <div class="banner__imgcontainer">
-                       <img class="banner__img" src="resources/images/information-guest-lecture.jpg" alt="Photo of Oliver Sack"> 
+                       <img src="resources/images/information-guest-lecture.jpg" alt="Photo of Oliver Sack"> 
                     </div>
                     <div class="banner__text">
                         <h3 class="banner__textitem">Our guest lecture</h3>
@@ -102,7 +105,7 @@
         </section>
 
         <!--COURSES-->
-        <section id="start-learning" class="courses content--background">
+        <section id="online" class="courses content--background">
             <h1 class="title courses__title">Start learning</h1>
 
             <div class="cards">
@@ -110,7 +113,7 @@
                 <!--Software Engineering-->
                 <div class="card__container">
                     <div class="card__imgcontainer">
-                        <img class="card__img" src="resources/images/course-software.jpg" alt="Two computer screens on a desk in a dark room">
+                        <img src="resources/images/course-software.jpg" alt="Two computer screens on a desk in a dark room">
                     </div>
                     <div class="card__textcontainer">
                         <h3 class="card__text--title">Software Engineering</h3>
@@ -122,7 +125,7 @@
                 <!--Computer art-->
                 <div class="card__container">
                     <div class="card__imgcontainer">
-                        <img class="card__img" src="resources/images/course-computer-art.jpg" alt="A hand holding a mobile phone">
+                        <img src="resources/images/course-computer-art.jpg" alt="A hand holding a mobile phone">
                     </div>
                     <div class="card__textcontainer">
                         <h3 class="card__text--title">Computer art</h3>
@@ -134,7 +137,7 @@
                 <!--Design-->
                 <div class="card__container">
                     <div class="card__imgcontainer">
-                        <img class="card__img" src="resources/images/course-design.jpg" alt="A person holding a retro camera">
+                        <img src="resources/images/course-design.jpg" alt="A person holding a retro camera">
                     </div>
                     <div class="card__textcontainer">
                         <h3 class="card__text--title">Design</h3>
@@ -146,7 +149,7 @@
                 <!--Data-->
                 <div class="card__container">
                     <div class="card__imgcontainer">
-                        <img class="card__img" src="resources/images/course-data.jpg" alt="A laptop displaying graphs">
+                        <img src="resources/images/course-data.jpg" alt="A laptop displaying graphs">
                     </div>
                     <div class="card__textcontainer">
                         <h3 class="card__text--title">Data</h3>
@@ -158,7 +161,7 @@
                 <!--Business-->
                 <div class="card__container">
                     <div class="card__imgcontainer">
-                        <img class="card__img" src="resources/images/course-business.jpg" alt="Chess pieces on a chess board">
+                        <img src="resources/images/course-business.jpg" alt="Chess pieces on a chess board">
                     </div>
                     <div class="card__textcontainer">
                         <h3 class="card__text--title">Business</h3>
@@ -170,7 +173,7 @@
                 <!--Marketing-->
                 <div class="card__container">
                     <div class="card__imgcontainer">
-                        <img class="card__img" src="resources/images/course-marketing.jpg" alt="A person using a smart watch">
+                        <img src="resources/images/course-marketing.jpg" alt="A person using a smart watch">
                     </div>
                     <div class="card__textcontainer">
                         <h3 class="card__text--title">Marketing</h3>
@@ -183,14 +186,14 @@
         </section>
 
         <!--THESIS-->
-        <section id="thesis-exhibit">
+        <section id="for-companies">
             <h1 class="title thesis__title">Thesis exhibit</h1>
             <div class="content flex">
 
                 <!--lefthand content-->
                 <div class="content__left">
                     <div class="thesis__videocontainer">
-                        <video class="video" controls>
+                        <video controls>
                             <source src="resources/videos/thesis.mp4">
                         </video> 
                     </div>
@@ -202,10 +205,11 @@
                 
                 <!--Righthand content-->
                 <div class="content__right">
+                    
                     <!--Card 1-->
                     <div class="banner banner--highlight">
                          <div class="banner__imgcontainer">
-                            <img class="banner__img" src="resources/images/thesis-fisma.jpg" alt="View from above of a somebody at a desk filled with papers and a smart phone">
+                            <img src="resources/images/thesis-fisma.jpg" alt="View from above of a somebody at a desk filled with papers and a smart phone">
                         </div>
                         <div class="banner__text">
                             <h3 class="banner__textitem">Fisma: Design and Prototype</h3>
@@ -216,7 +220,7 @@
                     <!--Card 2-->
                     <div class="banner banner--border--bottom">
                         <div class="banner__imgcontainer">
-                            <img class="banner__img" src="resources/images/thesis-now-and-then.jpg" alt="Photo of New York City">
+                            <img src="resources/images/thesis-now-and-then.jpg" alt="Photo of New York City">
                         </div>
                         <div class="banner__text">
                             <h3 class="banner__textitem">Now and then</h3>

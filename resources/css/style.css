@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    font-family: "Sofia Sans", sans-serif;
 }
 
 ol,ul {
@@ -19,6 +20,10 @@ img {
     max-width: 100%;
 }
 
+video {
+    max-width: 100%;
+}
+
 /*HEADER*/
 
 .head {
@@ -35,6 +40,7 @@ img {
     display: flex;
     width: 50%;
     font-size: 1.25rem;
+    font-weight: 200;
     padding-left: 1.5rem;
 }
 
@@ -44,7 +50,7 @@ img {
 }
 
 .head__logoname--emph{
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .head__nav {
@@ -109,11 +115,6 @@ img {
 .banner__imgcontainer {
     width: 35%;
     padding: 1rem;
-}
-
-.banner__img {
-    max-width: 100%;
-    height: auto;
 }
 
 .banner__text {
@@ -233,10 +234,6 @@ img {
 
 
 /*THESIS*/
-
-.video {
-    max-width: 100%;
-}
 
 .thesis__title {
     padding-top: 2rem;
