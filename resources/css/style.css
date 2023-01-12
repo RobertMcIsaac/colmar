@@ -14,6 +14,11 @@ a {
     text-decoration: none;
 }
 
+img {
+    height: auto;
+    max-width: 100%;
+}
+
 /*HEADER*/
 
 .head {
@@ -67,27 +72,118 @@ a {
     top: 4rem;
 }
 
+.title {
+    text-align: center;
+    margin: 0;
+}
 
-/*START section*/
 
-.landing {
+/*containers*/
+
+.content {
+   padding: 2rem 0 2rem 1.5rem;
+}
+
+.content__left {
+    max-width: 60%;
+}
+
+.content__right {
+    max-width: 40%;
+    margin-left: 1.5rem
+}
+
+.flex {
     display: flex;
-    padding: 2rem 1.5rem;
-    background-color: lightgrey;
 }
 
-.landing__imagecontainer {
-    margin-right: 0.75rem;
-    width: 60%;
+/*banners*/
+
+.banner {
+    display: flex;
+    padding: 1rem;
+    border-left: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
 }
 
-.landing__imagecontainer img {
-    width: 100%;
+.banner__imgcontainer {
+    width: 35%;
+    padding: 1rem;
+}
+
+.banner__img {
+    max-width: 100%;
     height: auto;
 }
 
+.banner__text {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner__textitem {
+    margin: 0.25rem 1rem;
+}
+
+.banner--highlight {
+    background-color: lightgrey;
+}
+
+.banner--border--bottom {
+    border-bottom: 1px solid lightgrey;
+}
+
+.banner--border {
+    border: 1px solid lightgrey;
+}
+
+/*cards*/
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 2.5rem;
+    justify-content: center;
+}
+
+.card__container {
+    margin: 1rem;
+    background-color: white;
+    width: 25rem;
+    height: 25rem;
+}
+
+.card__imgcontainer {
+    height: auto;
+    width: 100%;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.card__textcontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.card__text {
+    margin: 0.5rem;
+    color: grey;
+}
+
+.card__text--title {
+    color: black
+}
+
+/*LANDING*/
+
 .landing__text {
-    margin-left: 0.75rem;
+    margin-left: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,191 +206,37 @@ a {
     text-align: center;
 }
 
-
 /*INFORMATION*/
 
-.info {
-    display: flex;
-    margin-bottom: 2rem;
-}
-
-.info__left {
-    width: 60%;
-    padding: 2rem 0 2rem 1.5rem; 
-}
-
-.info__left img {
-    max-width: 100%;
-    margin: 0 0 2rem 0;
-}
-
-.info__left--item{
+.info__left__item{
     margin: 0 0 1.5rem 0;
 }
 
-.info__right {
-    max-width: 40%;
-    margin-left: 0.75rem; 
+.info__left__item--bottom {
+    margin-top: 2.5rem;
 }
-
-.info__card {
-    display: flex;
-    padding: 1rem;
-    border-left: 1px solid lightgrey;
-}
-
-.info__card .info__imagecontainer{
-    width: 35%;
-    padding: 1rem;
-}
-
-.info__imagecontainer img {
-    max-width: 100%;
-    height: auto;
-}
-
-.info__cardtext {
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.info__cardtext--item {
-    margin: 0.25rem 1rem;
-}
-
-.info__card--lecture {
-    background-color: lightgrey;
-}
-
 
 /*COURSES*/
 
-.courses {
+.content--background {
     background-color: lightgrey;
+}
+
+.courses__title {
     padding-bottom: 1rem;
-}
-
-.courses h1 {
-    text-align: center;
-    padding: 2rem 0 1rem 0;
-    margin: 0;
-}
-
-.course__cards {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0rem 2.5rem;
-    justify-content: center;
-}
-
-.course__card {
-    margin: 1rem;
-    background-color: white;
-    width: 25rem;
-    height: 25rem;
-}
-
-.course__img {
-    height: auto;
-    
-}
-
-.course__img img {
-    height: auto;
-    width: 100%;
-}
-
-.course__text {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 1rem;
-}
-
-.course__text--item {
-    margin: 0.5rem;
-    color: grey;
-}
-
-h3.course__text--item {
-    color: black
 }
 
 
 /*THESIS*/
 
-.thesis {
-    margin: 0 0 2rem 1.5rem;
-    display: flex;
-}
-
-#thesis-exhibit h1 {
-    padding: 2rem 0;
-    margin: 0;
-    text-align: center;
-}
-
-.thesis__left {
-    max-width: 60%;
-}
-
-
-.thesis__video {
+.video {
     max-width: 100%;
 }
 
-.thesis__textcontainer {
-    margin-top: 1.5rem;
+.thesis__title {
+    padding-top: 2rem;
 }
 
-
-.thesis__right {
-    max-width: 40%;
-}
-/*same as cards in info section- below*/
-.thesis__right {
-    max-width: 40%;
-    margin-left: 0.75rem;
-    
-}
-
-.thesis__card {
-    display: flex;
-    padding: 1rem;
-    border-left: 1px solid lightgrey;
-}
-
-.thesis__card--borderbottom {
-    border-bottom: 1px solid lightgrey;
-}
-
-.thesis__card .thesis__imagecontainer{
-    width: 35%;
-    padding: 1rem;
-}
-
-.thesis__imagecontainer img {
-    max-width: 100%;
-    height: auto;
-}
-
-.thesis__cardtext {
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.thesis__cardtext--item {
-    margin: 0.25rem 1rem;
-}
-
-.thesis__card--fisma {
-    background-color: lightgrey;
-}
-/*same as cards in info section- above*/
 
 /*FOOTER*/
 
