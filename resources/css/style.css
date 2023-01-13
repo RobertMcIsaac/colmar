@@ -197,7 +197,7 @@ video {
 /*LANDING*/
 
 .landing__text {
-    margin-left: 1.5rem;
+    margin: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,7 +216,6 @@ video {
     color: white;
     background-color: grey;
     padding: 0.5rem 3rem;
-    margin: 1rem;
     max-width: 12rem;
     text-align: center;
 }
