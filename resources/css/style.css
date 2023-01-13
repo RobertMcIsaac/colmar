@@ -3,6 +3,12 @@ html {
     font-family: "Sofia Sans", sans-serif;
 }
 
+@media only screen and (max-width: 895px) {
+    html {
+        font-size: 12px;
+    }
+}
+
 ol,ul {
 	list-style: none;
 	}
@@ -68,6 +74,24 @@ video {
 
 .head__navlist a {
     color: black;
+}
+
+/* header-mobile*/
+
+.mobile {
+    width: 100%;
+}
+
+.mobile__navlist {
+    justify-content: space-evenly;
+    padding: 0;
+    align-items: center;
+}
+
+@media only screen and (max-width: 560px) {
+    .desktop {
+        display: none;
+    }
 }
 
 
@@ -204,6 +228,7 @@ video {
     color: white;
     background-color: grey;
     padding: 0.5rem 3rem;
+    margin: 1rem;
     max-width: 12rem;
     text-align: center;
 }
