@@ -3,6 +3,18 @@ html {
     font-family: "Sofia Sans", sans-serif;
 }
 
+@media only screen and (max-width: 895px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    html {
+        font-size: 10px;
+    }
+}
+
 ol,ul {
 	list-style: none;
 	}
@@ -204,6 +216,7 @@ video {
     color: white;
     background-color: grey;
     padding: 0.5rem 3rem;
+    margin: 1rem;
     max-width: 12rem;
     text-align: center;
 }
