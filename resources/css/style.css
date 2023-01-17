@@ -44,7 +44,8 @@ video {
 
 @media only screen and (max-width: 588px) {
     .desktop,
-    header .desktop {
+    header .desktop,
+    .content.desktop {
         display: none;
     }
 }
@@ -243,16 +244,34 @@ video {
     margin: 0;
 }
 
-.landing__text h3 {
+.landing__item__h3 {
     margin: 1.6rem 0;
 }
 
 .landing__item--btn {
     color: white;
     background-color: grey;
+    text-align: center;
+}
+
+.landing__item--btn--desktop {
     padding: 0.5rem 3rem;
     max-width: 12rem;
-    text-align: center;
+}
+
+/*LANDING-mobile*/
+
+.landing__text--mobile {
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+
+.landing__item--mobile {
+    margin: 1.6rem 0;
+}
+
+.landing__item--btn--mobile {
+    padding: 1rem;
 }
 
 /*INFORMATION*/
