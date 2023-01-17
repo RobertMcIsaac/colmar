@@ -45,7 +45,8 @@ video {
 @media only screen and (max-width: 588px) {
     .desktop,
     header .desktop,
-    .content.desktop {
+    .content.desktop,
+    .cards.desktop {
         display: none;
     }
 }
@@ -164,6 +165,19 @@ video {
      margin: 0.5rem;
      color: black
  }
+
+ /*cards-mobile*/
+
+ .cards__mobile {
+    padding: 0 1rem;
+ }
+
+.card__mobile {
+    padding: .5rem;
+    margin: 1rem;
+    background-color: grey;
+    text-align: center;
+}
 
 
 /*HEADER*/
@@ -308,6 +322,12 @@ video {
 
 .courses__title {
     padding-bottom: 1rem;
+}
+
+/*COURSES-mobile*/
+
+.courses__title--mobile {
+    padding-top: 1rem;
 }
 
 
