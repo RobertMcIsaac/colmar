@@ -327,7 +327,7 @@ video {
 /*COURSES-mobile*/
 
 .courses__title--mobile {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 
 
@@ -335,6 +335,12 @@ video {
 
 .thesis__title {
     padding-top: 2rem;
+}
+
+/*THESIS-mobile*/
+
+.thesis__title--mobile {
+    padding: 1.5rem;
 }
 
 
