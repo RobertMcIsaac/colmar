@@ -15,7 +15,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 588px) {
     html {
         font-size: 16px;
     }
@@ -42,14 +42,14 @@ video {
     max-width: 100%;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 588px) {
     .desktop,
     header .desktop {
         display: none;
     }
 }
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 589px) {
     .mobile {
         display: none;
     }
