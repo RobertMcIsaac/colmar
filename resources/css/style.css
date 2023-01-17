@@ -42,6 +42,10 @@ video {
     max-width: 100%;
 }
 
+.content--background {
+    background-color: lightgray;
+}
+
 @media only screen and (max-width: 588px) {
     .desktop,
     header .desktop,
@@ -239,8 +243,6 @@ video {
     padding: 0;
 }
 
-.head__navitem--mobile {
-}
 
 
 /*MAIN*/
@@ -315,10 +317,6 @@ video {
 
 .courses {
     padding: 2rem 0;
-}
-
-.content--background {
-    background-color: lightgrey;
 }
 
 .courses__title {
