@@ -262,12 +262,12 @@ video {
 /*LANDING-mobile*/
 
 .landing__text--mobile {
-    margin: 1.5rem;
+    margin: 0.5rem;
     padding: 1.5rem;
 }
 
 .landing__item--mobile {
-    margin: 1.6rem 0;
+    margin: 1.5rem 0;
 }
 
 .landing__item--btn--mobile {
