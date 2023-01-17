@@ -46,7 +46,8 @@ video {
     .desktop,
     header .desktop,
     .content.desktop,
-    .cards.desktop {
+    .cards.desktop
+    .footer.desktop {
         display: none;
     }
 }
@@ -120,7 +121,7 @@ video {
 }
 
 .banner__text--mobile {
-    padding: 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
  
@@ -358,4 +359,17 @@ video {
 
 .foot__termsprivacy {
     padding-left: 0.8rem;
+}
+
+/*FOOTER-mobile*/
+
+@media only screen and (max-width: 588px) {
+    .foot--mobile {
+        display: flex;
+        padding: 1rem;
+        border: none;
+    }
+    .foot__copyright--mobile {
+        padding-top: 1.5rem;
+    }
 }
