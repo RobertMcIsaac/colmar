@@ -1,11 +1,24 @@
 html {
     font-size: 16px;
     font-family: "Sofia Sans", sans-serif;
+    color: #3f3a64;
 }
 
 @media only screen and (max-width: 895px) {
     html {
         font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 588px) {
+    html {
+        font-size: 16px;
     }
 }
 
@@ -29,6 +42,156 @@ img {
 video {
     max-width: 100%;
 }
+
+.content--background {
+    background-color: #3f3a64;
+}
+
+
+@media only screen and (max-width: 588px) {
+    .desktop,
+    header .desktop,
+    .content.desktop,
+    .cards.desktop
+    .footer.desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 589px) {
+    .mobile {
+        display: none;
+    }
+}
+
+/*containers*/
+
+.content {
+    padding: 2rem 0 2rem 1.5rem;
+ }
+ 
+ .content__left {
+     max-width: 60%;
+ }
+ 
+ .content__right {
+     max-width: 40%;
+     margin-left: 1.5rem
+ }
+ 
+ .flex {
+     display: flex;
+ }
+ 
+ /*banners*/
+ 
+ .banner {
+     display: flex;
+     padding: 1rem;
+     border-left: 1px solid lightgrey;
+     border-top: 1px solid lightgrey;
+ }
+
+ .banner:hover {
+    background-color: #20ad96;
+ }
+ 
+ .banner__imgcontainer {
+     width: 35%;
+     padding: 1rem;
+ }
+ 
+ .banner__text {
+     width: 65%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ 
+ .banner__textitem {
+     margin: 0.25rem 1rem;
+ }
+
+ .banner__textitem--link {
+    text-decoration: underline;
+ }
+ 
+ .banner--border--bottom {
+     border-bottom: 1px solid lightgrey;
+ }
+ 
+ .banner--border {
+     border: 1px solid lightgrey;
+ }
+
+ /*banners-mobile*/
+
+.banner--mobile {
+    padding: 1rem;
+}
+
+.banner__text--mobile {
+    padding: 0 1rem 1rem 1rem;
+}
+
+ 
+ /*cards*/
+ 
+ .cards {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0rem 2.5rem;
+     justify-content: center;
+ }
+ 
+ .card__container {
+     margin: 1rem;
+     background-color: white;
+     width: 25rem;
+     height: 25rem;
+ }
+ 
+ .card__imgcontainer {
+     height: auto;
+     width: 100%;
+ }
+ 
+ .card__img {
+     width: 100%;
+ }
+ 
+ .card__textcontainer {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     padding: 1rem;
+ }
+ 
+ .card__text {
+     margin: 0.5rem;
+     color: grey;
+ }
+ 
+ .card__text--title {
+     margin: 0.5rem;
+     color: #3f3a64
+ }
+
+ /*cards-mobile*/
+
+ .cards__mobile {
+    padding: 0 1rem;
+ }
+
+.card__mobile {
+    padding: .5rem;
+    margin: 1rem;
+    background-color: #20ad96;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
 
 /*HEADER*/
 
@@ -76,22 +239,16 @@ video {
     color: black;
 }
 
-/* header-mobile*/
+/*HEADER-mobile*/
 
-.mobile {
+.head__nav--mobile {
     width: 100%;
 }
 
-.mobile__navlist {
-    justify-content: space-evenly;
-    padding: 0;
+.head__navlist--mobile {
     align-items: center;
-}
-
-@media only screen and (max-width: 560px) {
-    .desktop {
-        display: none;
-    }
+    justify-content: space-around;
+    padding: 0;
 }
 
 
@@ -108,129 +265,53 @@ video {
 }
 
 
-/*containers*/
-
-.content {
-   padding: 2rem 0 2rem 1.5rem;
-}
-
-.content__left {
-    max-width: 60%;
-}
-
-.content__right {
-    max-width: 40%;
-    margin-left: 1.5rem
-}
-
-.flex {
-    display: flex;
-}
-
-/*banners*/
-
-.banner {
-    display: flex;
-    padding: 1rem;
-    border-left: 1px solid lightgrey;
-    border-top: 1px solid lightgrey;
-}
-
-.banner__imgcontainer {
-    width: 35%;
-    padding: 1rem;
-}
-
-.banner__text {
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.banner__textitem {
-    margin: 0.25rem 1rem;
-}
-
-.banner--highlight {
-    background-color: lightgrey;
-}
-
-.banner--border--bottom {
-    border-bottom: 1px solid lightgrey;
-}
-
-.banner--border {
-    border: 1px solid lightgrey;
-}
-
-/*cards*/
-
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0rem 2.5rem;
-    justify-content: center;
-}
-
-.card__container {
-    margin: 1rem;
-    background-color: white;
-    width: 25rem;
-    height: 25rem;
-}
-
-.card__imgcontainer {
-    height: auto;
-    width: 100%;
-}
-
-.card__img {
-    width: 100%;
-}
-
-.card__textcontainer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 1rem;
-}
-
-.card__text {
-    margin: 0.5rem;
-    color: grey;
-}
-
-.card__text--title {
-    margin: 0.5rem;
-    color: black
-}
-
 /*LANDING*/
 
 .landing__text {
-    margin-left: 1.5rem;
+    margin: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 20rem;
+    color: white;
 }
 
 .landing__item {
     margin: 0;
 }
 
-.landing__text h3 {
+.landing__item__h3 {
     margin: 1.6rem 0;
 }
 
 .landing__item--btn {
     color: white;
-    background-color: grey;
+    background-color: #20ad96;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.landing__item--btn--desktop {
     padding: 0.5rem 3rem;
     margin: 1rem;
     max-width: 12rem;
-    text-align: center;
+}
+
+/*LANDING-mobile*/
+
+.landing__text--mobile {
+    margin: 0.5rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+.landing__item--mobile {
+    margin: 1.5rem 0;
+}
+
+.landing__item--btn--mobile {
+    padding: 1rem;
+    border-radius: 5px;
 }
 
 /*INFORMATION*/
@@ -243,18 +324,22 @@ video {
     margin: 3rem 0 0 0;
 }
 
+
 /*COURSES*/
 
 .courses {
     padding: 2rem 0;
 }
 
-.content--background {
-    background-color: lightgrey;
-}
-
 .courses__title {
     padding-bottom: 1rem;
+    color: white;
+}
+
+/*COURSES-mobile*/
+
+.courses__title--mobile {
+    padding-top: 1.5rem;
 }
 
 
@@ -264,6 +349,12 @@ video {
     padding-top: 2rem;
 }
 
+/*THESIS-mobile*/
+
+.thesis__title--mobile {
+    padding: 1.5rem;
+}
+
 
 /*FOOTER*/
 
@@ -271,6 +362,7 @@ video {
     display: flex;
     padding: 1rem 1.5rem 2rem 1.5rem;
     border-top: 1px solid lightgrey;
+    color: black;
 }
 
 .foot__copyright {
@@ -279,4 +371,17 @@ video {
 
 .foot__termsprivacy {
     padding-left: 0.8rem;
+}
+
+/*FOOTER-mobile*/
+
+@media only screen and (max-width: 588px) {
+    .foot--mobile {
+        display: flex;
+        padding: 1rem;
+        border: none;
+    }
+    .foot__copyright--mobile {
+        padding-top: 1.5rem;
+    }
 }
