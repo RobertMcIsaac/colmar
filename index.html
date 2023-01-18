@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <title>Colmar Academy</title>
-    <link rel="stylesheet" href="resources/css/reset.css">
-    <link rel="stylesheet" href="resources/css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <title>Colmar Academy</title>
+        <link rel="stylesheet" href="resources/css/reset.css">
+        <link rel="stylesheet" href="resources/css/style.css">
+    </head>
 
-<body>
+    <body>
 
-    <!--HEADER-->
-    <header id="header" class="head">
-        <div class="desktop">
-            <div class="head__logo">
+        <!--HEADER-->
+        <header id="header" class="head">
+            <div class="desktop head__logo">
                 <img class="head__logoimg" src="resources/images/ic-logo.svg" alt="">
                 <p><span class="head__logoname--emph">COLMAR</span>ACADEMY</p>
             </div>
-            <nav class="head__nav">
+            <nav class="desktop head__nav">
                 <ul class="head__navlist">
                     <a class="head__navitem" href="#on-campus"><li>On campus</li></a>
                     <a class="head__navitem" href="#online"><li>Online</li></a>
@@ -29,231 +28,325 @@
                     <a class="head__navitem" href="#"><li>Sign in</li></a>   
                 </ul>
             </nav>
-        </div>    
-        <div class="mobile">
-            <nav>
-                <ul class="flex mobile__navlist">
-                    <li><img src="resources/images/ic-logo.svg" alt=""></li>
-                    <li><img src="resources/images/ic-on-campus.svg" alt=""></li>
-                    <li><img src="resources/images/ic-online.svg" alt=""></li>
-                    <li><img src="resources/images/ic-login.svg" alt=""></li>
+
+            <!--mobile-->
+            <nav class="mobile head__nav--mobile">
+                <ul class="flex head__navlist--mobile">
+                    <li class="head__navitem--mobile"><img src="resources/images/ic-logo.svg" alt=""></li>
+                    <li class="head__navitem--mobile"><img src="resources/images/ic-on-campus.svg" alt=""></li>
+                    <li class="head__navitem--mobile"><img src="resources/images/ic-online.svg" alt=""></li>
+                    <li class="head__navitem--mobile"><img src="resources/images/ic-login.svg" alt=""></li>
                 </ul>
             </nav>
-        </div>    
-    </header>
+        
+        </header>
 
-    <!--MAIN-->
-    <main id="main">
+        <!--MAIN-->
+        <main id="main">
 
-        <!--START/ LANDING PAGE-->
-        <section id="landing-page" class="content flex content--background">
-            <div class="content__left">
-                <div>
-                    <img src="resources/images/banner.jpg" alt="Three people studying outside on a table">
-                </div> 
-            </div>
-            <div class="content__right landing__text">
-                <h1 class="landing__item">Learn something new everyday</h1>
-                <h3 class="landing__item">Lorum ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                <a href="#"><p class="landing__item--btn">Start here</p></a>
-            </div>
-        </section>
-
-        <!--INFORMATION-->
-        <section id="on-campus" class="content flex">
-
-            <!--Lefthand content-->
-            <div class="content__left">
-                <img src="resources/images/information-main.jpg" alt="A man reading a book"> 
-                <div>
-                    <h1>It doesn't hurt to keep practicing</h1>
-                    <p class="info__left__item">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsam urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
-                    <p class="info__left__item--bottom">Emanuel, Sr Strategist at Hiring.com</p> 
-                </div>
-            </div>
+            <!--START/ LANDING PAGE-->
             
-            <!--Righthand content-->
-            <div class="content__right">
-
-                <!--Info cards-->
-
-                <!--Orientation card-->
-                <div class="banner">
-                    <div class="banner__imgcontainer">
-                       <img src="resources/images/information-orientation.jpg" alt="People seen walking from above, casting long shadows"> 
+            <section id="landing-page">
+                <div class="desktop content flex content--background">
+                    <div class="content__left">
+                        <div>
+                            <img src="resources/images/banner.jpg" alt="Three people studying outside on a table">
+                        </div> 
                     </div>
-                    <div class="banner__text">
-                       <h3 class="banner__textitem">Orientation date</h3>
-                        <p class="banner__textitem">Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                        <a class="banner__textitem" href="#"><span>Read more</span></a> 
+                    <div class="content__right landing__text">
+                        <h1 class="landing__item">Learn something new everyday</h1>
+                        <h3 class="landing__item__h3">Lorum ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                        <a href="#online"><p class="landing__item--btn landing__item--btn--desktop">Start here</p></a>
+                    </div>
+                </div>
+            <!--mobile-->
+                <div class="mobile content--background">
+                    <div>
+                        <img src="resources/images/banner.jpg" alt="Three people studying outside on a table">
+                    </div>
+                    <div class="landing__text--mobile">
+                        <h1 class="landing__item--mobile">Learn something new everyday</h1>
+                        <h3 class="landing__item--mobile">Lorum ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                        <a href="#"><p class="landing__item--btn landing__item--btn--mobile">Start here</p></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--INFORMATION-->
+            <section id="on-campus">
+                <div class="desktop content flex">
+                    <!--Lefthand content-->
+                    <div class="desktop content__left">
+                        <img src="resources/images/information-main.jpg" alt="A man reading a book"> 
+                        <div>
+                            <h1>It doesn't hurt to keep practicing</h1>
+                            <i class="info__left__item">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsam urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</i>
+                            <p class="info__left__item--bottom">Emanuel, Sr Strategist at Hiring.com</p> 
+                        </div>
+                    </div>
+                    
+                    <!--Righthand content-->
+                    <div class="desktop content__right">
+
+                        <!--banners-->
+
+                        <!--orientation-->
+                        <div class="banner">
+                            <div class="banner__imgcontainer">
+                                <img src="resources/images/information-orientation.jpg" alt="People seen walking from above, casting long shadows"> 
+                            </div>
+                            <div class="banner__text">
+                                <h3 class="banner__textitem">Orientation date</h3>
+                                <p class="banner__textitem">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                                <a class="banner__textitem banner__textitem--link" href="#"><span>Read more</span></a> 
+                            </div>
+                        </div>
+
+                        <!--campus-->
+                        <div class="banner">
+                            <div class="banner__imgcontainer">
+                                <img src="resources/images/information-campus.jpg" alt="Peopl sitting in a room with wood wall-panels and a map of South America on the wall">  
+                            </div>
+                            <div class="banner__text">
+                                <h3 class="banner__textitem">Our campus</h3>
+                                <p class="banner__textitem">Find out which campus is close by you</p>
+                                <a class="banner__textitem banner__textitem--link" href="#"><span>Read more</span></a> 
+                            </div>
+                        </div>
+
+                        <!--lecture-->
+                        <div class="banner banner--border--bottom">
+                            <div class="banner__imgcontainer">
+                            <img src="resources/images/information-guest-lecture.jpg" alt="Photo of Oliver Sack"> 
+                            </div>
+                            <div class="banner__text">
+                                <h3 class="banner__textitem">Our guest lecture</h3>
+                                <p class="banner__textitem">Join a keynote with Oliver Sack about music in medical treatment</p>
+                                <a class="banner__textitem banner__textitem--link" href="#"><span>Read more</span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <!--Campus card-->
-                <div class="banner">
-                    <div class="banner__imgcontainer">
-                      <img src="resources/images/information-campus.jpg" alt="Peopl sitting in a room with wood wall-panels and a map of South America on the wall">  
+                <!--mobile banners-->
+                <div class="mobile banner--border--bottom">
+
+                    <!--orientation-mobile-->
+                    <div class="banner--mobile">
+                        <div>
+                            <img src="resources/images/information-orientation-mobile.jpg" alt="People seen walking from above, casting long shadows"> 
+                        </div>
+                        <div class="banner__text--mobile">
+                            <h3>Orientation date</h3>
+                            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                            <a class="banner__textitem--link" href="#"><span>Read more</span></a> 
+                        </div>
                     </div>
-                    <div class="banner__text">
-                       <h3 class="banner__textitem">Our campus</h3>
-                        <p class="banner__textitem">Find out which campus is close by you</p>
-                        <a class="banner__textitem" href="#"><span>Read more</span></a> 
+                    <!--campus-mobile-->
+                    <div class="banner--mobile">
+                        <div>
+                            <img src="resources/images/information-campus-mobile.jpg" alt="People seen walking from above, casting long shadows"> 
+                        </div>
+                        <div class="banner__text--mobile">
+                            <h3>Orientation date</h3>
+                            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                            <a class="banner__textitem--link" href="#"><span>Read more</span></a> 
+                        </div>
+                    </div>
+                    <!--lecture-mobile-->
+                    <div class="banner--mobile">
+                        <div>
+                            <img src="resources/images/information-guest-lecture-mobile.jpg" alt="People seen walking from above, casting long shadows"> 
+                        </div>
+                        <div class="banner__text--mobile">
+                            <h3>Orientation date</h3>
+                            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                            <a class="banner__textitem--link" href="#"><span>Read more</span></a> 
+                        </div>
                     </div>
                 </div>
+            </section>
 
-                <!--Lecture card-->
-                <div class="banner banner--highlight banner--border--bottom">
-                    <div class="banner__imgcontainer">
-                       <img src="resources/images/information-guest-lecture.jpg" alt="Photo of Oliver Sack"> 
-                    </div>
-                    <div class="banner__text">
-                        <h3 class="banner__textitem">Our guest lecture</h3>
-                        <p class="banner__textitem">Join a keynote with Oliver Sack about music in medical treatment</p>
-                        <a class="banner__textitem" href="#"><span>Read more</span></a>
-                    </div>
-                </div>
+            <!--COURSES-->
+            <section id="online">
+                <div class="desktop courses content--background">
+                    <h1 class="title courses__title">Start learning</h1>
+                    
+                    <div class="cards">
 
-            </div>
-        </section>
+                        <!--Software Engineering-->
+                        <div class="card__container">
+                            <div class="card__imgcontainer">
+                                <img src="resources/images/course-software.jpg" alt="Two computer screens on a desk in a dark room">
+                            </div>
+                            <div class="card__textcontainer">
+                                <h3 class="card__text--title">Software Engineering</h3>
+                                <p class="card__text">COURSES</p>
+                                <p class="card__text">Web Development, Mobile Development, iOT, APIs</p>
+                            </div>
+                        </div>
 
-        <!--COURSES-->
-        <section id="online" class="courses content--background">
-            <h1 class="title courses__title">Start learning</h1>
+                        <!--Computer art-->
+                        <div class="card__container">
+                            <div class="card__imgcontainer">
+                                <img src="resources/images/course-computer-art.jpg" alt="A hand holding a mobile phone">
+                            </div>
+                            <div class="card__textcontainer">
+                                <h3 class="card__text--title">Computer art</h3>
+                                <p class="card__text">COURSES</p>
+                                <p class="card__text">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                            </div>
+                        </div>
 
-            <div class="cards">
+                        <!--Design-->
+                        <div class="card__container">
+                            <div class="card__imgcontainer">
+                                <img src="resources/images/course-design.jpg" alt="A person holding a retro camera">
+                            </div>
+                            <div class="card__textcontainer">
+                                <h3 class="card__text--title">Design</h3>
+                                <p class="card__text">COURSES</p>
+                                <p class="card__text">User Experience Design, User Research, Visual Design</p>
+                            </div>
+                        </div>
 
-                <!--Software Engineering-->
-                <div class="card__container">
-                    <div class="card__imgcontainer">
-                        <img src="resources/images/course-software.jpg" alt="Two computer screens on a desk in a dark room">
-                    </div>
-                    <div class="card__textcontainer">
-                        <h3 class="card__text--title">Software Engineering</h3>
-                        <p class="card__text">COURSES</p>
-                        <p class="card__text">Web Development, Mobile Development, iOT, APIs</p>
-                    </div>
-                </div>
+                        <!--Data-->
+                        <div class="card__container">
+                            <div class="card__imgcontainer">
+                                <img src="resources/images/course-data.jpg" alt="A laptop displaying graphs">
+                            </div>
+                            <div class="card__textcontainer">
+                                <h3 class="card__text--title">Data</h3>
+                                <p class="card__text">COURSES</p>
+                                <p class="card__text">Data Science, Big Data, SQL, Data Visualization</p>
+                            </div>
+                        </div>
 
-                <!--Computer art-->
-                <div class="card__container">
-                    <div class="card__imgcontainer">
-                        <img src="resources/images/course-computer-art.jpg" alt="A hand holding a mobile phone">
-                    </div>
-                    <div class="card__textcontainer">
-                        <h3 class="card__text--title">Computer art</h3>
-                        <p class="card__text">COURSES</p>
-                        <p class="card__text">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-                    </div>
-                </div>
+                        <!--Business-->
+                        <div class="card__container">
+                            <div class="card__imgcontainer">
+                                <img src="resources/images/course-business.jpg" alt="Chess pieces on a chess board">
+                            </div>
+                            <div class="card__textcontainer">
+                                <h3 class="card__text--title">Business</h3>
+                                <p class="card__text">COURSES</p>
+                                <p class="card__text">Product Development, Business Development, Startup</p>
+                            </div>
+                        </div>
 
-                <!--Design-->
-                <div class="card__container">
-                    <div class="card__imgcontainer">
-                        <img src="resources/images/course-design.jpg" alt="A person holding a retro camera">
-                    </div>
-                    <div class="card__textcontainer">
-                        <h3 class="card__text--title">Design</h3>
-                        <p class="card__text">COURSES</p>
-                        <p class="card__text">User Experience Design, User Research, Visual Design</p>
-                    </div>
-                </div>
-
-                <!--Data-->
-                <div class="card__container">
-                    <div class="card__imgcontainer">
-                        <img src="resources/images/course-data.jpg" alt="A laptop displaying graphs">
-                    </div>
-                    <div class="card__textcontainer">
-                        <h3 class="card__text--title">Data</h3>
-                        <p class="card__text">COURSES</p>
-                        <p class="card__text">Data Science, Big Data, SQL, Data Visualization</p>
-                    </div>
-                </div>
-
-                <!--Business-->
-                <div class="card__container">
-                    <div class="card__imgcontainer">
-                        <img src="resources/images/course-business.jpg" alt="Chess pieces on a chess board">
-                    </div>
-                    <div class="card__textcontainer">
-                        <h3 class="card__text--title">Business</h3>
-                        <p class="card__text">COURSES</p>
-                        <p class="card__text">Product Development, Business Development, Startup</p>
-                    </div>
-                </div>
-
-                <!--Marketing-->
-                <div class="card__container">
-                    <div class="card__imgcontainer">
-                        <img src="resources/images/course-marketing.jpg" alt="A person using a smart watch">
-                    </div>
-                    <div class="card__textcontainer">
-                        <h3 class="card__text--title">Marketing</h3>
-                        <p class="card__text">COURSES</p>
-                        <p class="card__text">Analytics, Content Marketing, Mobile Marketing</p>
+                        <!--Marketing-->
+                        <div class="card__container">
+                            <div class="card__imgcontainer">
+                                <img src="resources/images/course-marketing.jpg" alt="A person using a smart watch">
+                            </div>
+                            <div class="card__textcontainer">
+                                <h3 class="card__text--title">Marketing</h3>
+                                <p class="card__text">COURSES</p>
+                                <p class="card__text">Analytics, Content Marketing, Mobile Marketing</p>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
                 
-            </div>
-        </section>
+                <!--courses mobile-->
+                <div class="mobile banner--border--bottom">
+                    <h1 class="title courses__title--mobile">Start learning</h1>
+                    <!--cards mobile-->
+                    <div class="cards__mobile">
+                        <div class="card__mobile">
+                            <h3 class="card__text__mobile">Software engineering</h3>
+                        </div>
+                        <div class="card__mobile">
+                            <h3 class="card__text__mobile">Computer art</h3>
+                        </div>
+                        <div class="card__mobile">
+                            <h3 class="card__text__mobile">Design</h3>
+                        </div>
+                        <div class="card__mobile">
+                            <h3 class="card__text__mobile">Data</h3>
+                        </div>
+                        <div class="card__mobile">
+                            <h3 class="card__text__mobile">Business</h3>
+                        </div>
+                        <div class="card__mobile">
+                            <h3 class="card__text__mobile">Marketing</h3>
+                        </div>
+                    </div> 
+                </div>
 
-        <!--THESIS-->
-        <section id="for-companies">
-            <h1 class="title thesis__title">Thesis exhibit</h1>
-            <div class="content flex">
+            </section>
 
-                <!--lefthand content-->
-                <div class="content__left">
-                    <div class="thesis__videocontainer">
+            <!--THESIS-->
+            <section id="for-companies">
+
+                <div class="desktop">
+                    <h1 class="title thesis__title">Thesis exhibit</h1>
+                    <div class="content flex">
+
+                        <!--lefthand content-->
+                        <div class="content__left">
+                            <div class="thesis__videocontainer">
+                                <video controls>
+                                    <source src="resources/videos/thesis.mp4">
+                                </video> 
+                            </div>
+                            <div class="thesis__textcontainer">
+                                <h3>Reimagine urban</h3>
+                                <i>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsam urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</i>
+                            </div>
+                        </div>
+                        
+                        <!--Righthand content-->
+                        <div class="content__right">
+                            
+                            <!--Card 1-->
+                            <div class="banner">
+                                <div class="banner__imgcontainer">
+                                    <img src="resources/images/thesis-fisma.jpg" alt="View from above of a somebody at a desk filled with papers and a smart phone">
+                                </div>
+                                <div class="banner__text">
+                                    <h3 class="banner__textitem">Fisma: Design and Prototype</h3>
+                                    <p class="banner__textitem">Designer showcase of new prototype product</p>
+                                </div>
+                            </div>
+
+                            <!--Card 2-->
+                            <div class="banner banner--border--bottom">
+                                <div class="banner__imgcontainer">
+                                    <img src="resources/images/thesis-now-and-then.jpg" alt="Photo of New York City">
+                                </div>
+                                <div class="banner__text">
+                                    <h3 class="banner__textitem">Now and then</h3>
+                                    <p class="banner__textitem">Research study about New York</p>
+                                </div>
+                            </div>
+                
+                        </div> 
+                    </div>
+                </div>  
+                <!--thesis-mobile-->
+                <div class="mobile">
+                    <h1 class="title thesis__title--mobile">Thesis exhibit</h1>
+                    <div class="">
                         <video controls>
                             <source src="resources/videos/thesis.mp4">
                         </video> 
                     </div>
-                    <div class="thesis__textcontainer">
-                        <h3>Reimagine urban</h3>
-                        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsam urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
-                    </div>
                 </div>
                 
-                <!--Righthand content-->
-                <div class="content__right">
-                    
-                    <!--Card 1-->
-                    <div class="banner banner--highlight">
-                         <div class="banner__imgcontainer">
-                            <img src="resources/images/thesis-fisma.jpg" alt="View from above of a somebody at a desk filled with papers and a smart phone">
-                        </div>
-                        <div class="banner__text">
-                            <h3 class="banner__textitem">Fisma: Design and Prototype</h3>
-                            <p class="banner__textitem">Designer showcase of new prototype product</p>
-                        </div>
-                    </div>
+            </section>
 
-                    <!--Card 2-->
-                    <div class="banner banner--border--bottom">
-                        <div class="banner__imgcontainer">
-                            <img src="resources/images/thesis-now-and-then.jpg" alt="Photo of New York City">
-                        </div>
-                        <div class="banner__text">
-                            <h3 class="banner__textitem">Now and then</h3>
-                            <p class="banner__textitem">Research study about New York</p>
-                        </div>
-                    </div>
-                    
-                </div> 
-            
-            </div>
-        </section>
+            <!--FOOTER-->
+            <footer id="footer">
+                <div class="desktop foot foot--mobile">
+                    <span class="foot__copyright foot__copyright--mobile">ⓒ 2016 Colmar Academy. All rights reserved</span>
+                    <span class="desktop foot__termsprivacy">Terms</span>
+                    <span class="desktop foot__termsprivacy">Privacy</span>
+                </div>
+            </footer>
 
-        <!--FOOTER-->
-        <footer id="footer" class="foot">
-            <span class="foot__copyright">ⓒ 2016 Colmar Academy. All rights reserved</span>
-            <span class="foot__termsprivacy">Terms</span>
-            <span class="foot__termsprivacy">Privacy</span>
-            
-        </footer>
-
-    </main>
-    
-</body>
+        </main>
+        
+    </body>
 </html>
