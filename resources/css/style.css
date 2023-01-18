@@ -1,6 +1,7 @@
 html {
     font-size: 16px;
     font-family: "Sofia Sans", sans-serif;
+    color: #3f3a64;
 }
 
 @media only screen and (max-width: 895px) {
@@ -43,8 +44,9 @@ video {
 }
 
 .content--background {
-    background-color: lightgray;
+    background-color: #3f3a64;
 }
+
 
 @media only screen and (max-width: 588px) {
     .desktop,
@@ -89,6 +91,10 @@ video {
      border-left: 1px solid lightgrey;
      border-top: 1px solid lightgrey;
  }
+
+ .banner:hover {
+    background-color: #20ad96;
+ }
  
  .banner__imgcontainer {
      width: 35%;
@@ -105,9 +111,9 @@ video {
  .banner__textitem {
      margin: 0.25rem 1rem;
  }
- 
- .banner--highlight {
-     background-color: lightgrey;
+
+ .banner__textitem--link {
+    text-decoration: underline;
  }
  
  .banner--border--bottom {
@@ -168,7 +174,7 @@ video {
  
  .card__text--title {
      margin: 0.5rem;
-     color: black
+     color: #3f3a64
  }
 
  /*cards-mobile*/
@@ -180,8 +186,10 @@ video {
 .card__mobile {
     padding: .5rem;
     margin: 1rem;
-    background-color: grey;
+    background-color: #20ad96;
     text-align: center;
+    border-radius: 5px;
+    color: white;
 }
 
 
@@ -244,7 +252,6 @@ video {
 }
 
 
-
 /*MAIN*/
 
 #main {
@@ -266,6 +273,7 @@ video {
     flex-direction: column;
     justify-content: center;
     max-width: 20rem;
+    color: white;
 }
 
 .landing__item {
@@ -278,8 +286,9 @@ video {
 
 .landing__item--btn {
     color: white;
-    background-color: grey;
+    background-color: #20ad96;
     text-align: center;
+    border-radius: 5px;
 }
 
 .landing__item--btn--desktop {
@@ -292,6 +301,7 @@ video {
 .landing__text--mobile {
     margin: 0.5rem;
     padding: 1.5rem;
+    color: white;
 }
 
 .landing__item--mobile {
@@ -300,6 +310,7 @@ video {
 
 .landing__item--btn--mobile {
     padding: 1rem;
+    border-radius: 5px;
 }
 
 /*INFORMATION*/
@@ -321,6 +332,7 @@ video {
 
 .courses__title {
     padding-bottom: 1rem;
+    color: white;
 }
 
 /*COURSES-mobile*/
@@ -349,6 +361,7 @@ video {
     display: flex;
     padding: 1rem 1.5rem 2rem 1.5rem;
     border-top: 1px solid lightgrey;
+    color: black;
 }
 
 .foot__copyright {
